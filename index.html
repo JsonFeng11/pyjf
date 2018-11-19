@@ -10,7 +10,7 @@
     <body>
         <nav>信用额度评估</nav>
     <div class="bgView">
-        //头部信息
+        <!-- 头部信息 -->
         <div class="headerView">
             <div class="numbView">
                 <div class="bigNum">1</div>
@@ -18,10 +18,19 @@
             </div>
             <div class="titleDes">基础信息</div>
         </div>
-        //栏目输入
+        <!-- 栏目输入 -->
         <div class="coumCell">
             <div class="sepLine"></div>
-            <div class=""></div>
+            <div class="coumDetail">
+                <div class="coumTitle">姓名</div>
+            <div class="inputView">
+                <input class="inputText" onkeyup="value=value.replace(/[ -~]/g,'')" onkeydown="if(event.keyCode==13)event.keyCode=9" style="BORDER-BOTTOM: 0px solid; BORDER-LEFT: 0px solid; BORDER-RIGHT: 0px solid; BORDER-TOP: 0px solid;" placeholder="请输入您的姓名" >
+            </div>
+            
+            </div>
+            
+  
+            
         </div>
     </div>                           
     </body>

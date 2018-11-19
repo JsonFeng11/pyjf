@@ -40,3 +40,48 @@
     margin-left: 15px;
     color: blue;
 }
+
+.coumCell {
+    display: flex;
+    flex-direction: column;
+    margin-top: 64px;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.sepLine {
+    height: 0.5px;
+    /* width: 200px; */
+    background-color: red;
+}
+
+.coumDetail {
+    display: flex;
+    flex-direction: row;
+    margin-top: 8px;
+    justify-content: space-between;
+}
+
+.coumTitle {
+    font-size: 32px;
+
+}
+
+.inputText {
+    border: none;
+    text-align: right;
+    align-items: right;
+    align-content: right;
+    columns: 1;
+    height: 30px;
+    border-color: white;
+    font-size: 32px;
+   
+    border: 1px solid #ccc;/*跟进textarea背景颜色来定*/
+
+}
+.inputText:focus {
+    outline: none;
+    border: 1px solid #f60;
+
+}
